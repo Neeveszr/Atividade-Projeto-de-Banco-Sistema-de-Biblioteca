@@ -36,12 +36,19 @@ Exclua o usuário da tabela usuario.
 
 ### Questões de VIEWS
 Questão 1 - Criar uma view livros_com_autores que mostre o título do livro e o nome do autor.
+
 Questão 2 - Criar uma view usuarios_com_emprestimos que mostre o nome do usuário e os títulos dos livros emprestados.
+
 Questão 3 - Criar uma view emprestimos_em_aberto que mostre todos os empréstimos que ainda não têm data de devolução.
+
 Questão 4 - Criar uma view historico_emprestimos que traga: nome do usuário, título do livro, autor e data de empréstimo.
+
 Questão 5 - Criar uma view qtd_emprestimos_por_usuario que mostre quantos livros cada usuário já emprestou.
+
 Questão 6 - Criar uma view livros_mais_recentes que liste os livros publicados depois de 1950 com seus autores.
+
 Questão 7 - Criar uma view usuarios_com_mais_de_um_emprestimo que mostre os usuários que já emprestaram mais de 1 livro.
+
 
 ### Questões de FUNCTIONS
 Questão 1 - Crie uma função chamada autor_do_livro(p_id INT) que retorne o nome do autor de um livro a partir do id do livro.
