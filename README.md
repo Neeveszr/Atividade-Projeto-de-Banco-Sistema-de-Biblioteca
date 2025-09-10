@@ -27,7 +27,6 @@ Functions (Funções):
 São parecidas com procedures, mas devem retornar um valor (numérico, texto, tabela, etc.).
 Usadas quando é preciso calcular ou processar dados e RETORNAR um resultado
 
-
 ## 📝 Questões respondidas
 
 ### Questões de PROCEDURES
@@ -92,3 +91,32 @@ UPDATE emprestimo SET valor = 4.50 WHERE id = 4;
 UPDATE emprestimo SET valor = 8.00 WHERE id = 5;
 Crie uma função chamada total_gasto_usuario que receba o id de um usuário e retorne o valor total gasto em empréstimos, somando todos os valores da coluna valor da tabela emprestimo.
 Se o usuário não tiver empréstimos, a função deve retornar 0.
+
+
+
+
+
+
+### As views foram criadas para simplificar consultas frequentes, reunindo informações de várias tabelas sem a necessidade escrever o código várias vezes.
+
+usuarios_com_emprestimos: exibe o nome do usuário e os títulos dos livros que ele emprestou.
+
+emprestimos_em_aberto: lista os usuários que ainda têm livros sem devolução.
+
+
+### As procedures foram utilizadas para automatizar tarefas administrativas que envolvem manipulação de dados.
+
+atualizar_estoque() → poderia atualizar a disponibilidade de um livro após um empréstimo ou devolução.
+
+registrar_emprestimo(p_usuario, p_livro, p_data) → poderia cadastrar um novo empréstimo de forma automatizada.
+
+
+### As functions foram usadas para encapsular regras de negócio e retornar resultados específicos:
+
+autor_do_livro(p_id INT) → retorna o autor de um livro.
+
+livro_emprestado(p_id INT) → verifica se um livro está emprestado ou disponível.
+
+usuario_com_atraso(p_id INT) → identifica se um usuário possui empréstimos atrasados (mais de 10 dias).
+
+total_gasto_usuario(p_id INT) → soma o valor gasto por um usuário em empréstimos.
