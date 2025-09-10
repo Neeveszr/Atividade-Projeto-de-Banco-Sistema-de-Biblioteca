@@ -81,21 +81,31 @@ Crie uma função chamada usuario_com_atraso(p_id INT) que retorne:
 
 Questão 4 -
 Para usar uma função de soma, vamos alterar a base de dados:
+
 ALTER TABLE emprestimo ADD COLUMN valor NUMERIC(10,2);
+
 atualizando os dados:
+
 -- Atualizando valores manualmente
+
 UPDATE emprestimo SET valor = 5.00 WHERE id = 1;
+
 UPDATE emprestimo SET valor = 7.50 WHERE id = 2;
+
 UPDATE emprestimo SET valor = 6.00 WHERE id = 3;
+
 UPDATE emprestimo SET valor = 4.50 WHERE id = 4;
+
 UPDATE emprestimo SET valor = 8.00 WHERE id = 5;
+
 Crie uma função chamada total_gasto_usuario que receba o id de um usuário e retorne o valor total gasto em empréstimos, somando todos os valores da coluna valor da tabela emprestimo.
+
 Se o usuário não tiver empréstimos, a função deve retornar 0.
 
 
 
 
-
+## Descrição de como cada um deles foi implementado e utilizado nas atividades propostas.
 
 ### As views foram criadas para simplificar consultas frequentes, reunindo informações de várias tabelas sem a necessidade escrever o código várias vezes.
 
