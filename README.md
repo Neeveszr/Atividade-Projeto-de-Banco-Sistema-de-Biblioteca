@@ -2,6 +2,9 @@
 
 Este projeto tem o objetivo utilizar um **sistema de biblioteca** em PostgreSQL para estudar **procedures** , **views** e **functions** para gerenciar usuários, autores, livros e empréstimos.
 
+<img width="599" height="703" alt="image" src="https://github.com/user-attachments/assets/7983ec89-435b-4505-9513-1c07dce74e63" />
+
+
 ## 🏗️ Estrutura do Banco de Dados
 
 ### Tabelas
