@@ -11,6 +11,11 @@ Este projeto tem o objetivo utilizar um **sistema de biblioteca** em PostgreSQL 
 - **emprestimo** → controle de empréstimos e devoluções  
 
 
+## 🏗️ Explicação
+Procedures:
+São conjuntos de comandos SQL armazenados no banco, que podem ser executados sob demanda.
+Servem para automatizar tarefas repetitivas ou complexas (ex.: atualizar estoque, gerar relatórios).
+
 ## 📝 Questões respondidas
 
 ### Questões de PROCEDURES
