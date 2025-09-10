@@ -13,8 +13,20 @@ Este projeto tem o objetivo utilizar um **sistema de biblioteca** em PostgreSQL 
 
 ## 🏗️ Explicação
 Procedures:
+
 São conjuntos de comandos SQL armazenados no banco, que podem ser executados sob demanda.
 Servem para automatizar tarefas repetitivas ou complexas (ex.: atualizar estoque, gerar relatórios).
+
+Views (Visões):
+
+São consultas SQL salvas no banco como se fossem “tabelas virtuais”.
+Não armazenam os dados em si, apenas a consulta.
+
+Functions (Funções):
+
+São parecidas com procedures, mas devem retornar um valor (numérico, texto, tabela, etc.).
+Usadas quando é preciso calcular ou processar dados e RETORNAR um resultado
+
 
 ## 📝 Questões respondidas
 
